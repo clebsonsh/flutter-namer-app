@@ -43,6 +43,7 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
+          Text('Testing git hub'),
           Text('A random AWESOME idea: '),
           Text(pair.asLowerCase),
           ElevatedButton(
